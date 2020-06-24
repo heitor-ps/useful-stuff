@@ -1,7 +1,3 @@
-
-
-
-
 def isPrimo(n)  
 end
 
