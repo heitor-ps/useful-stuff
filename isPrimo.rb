@@ -1,25 +1,21 @@
+def isPrimo(n)   
+   a = [];
 
-
-
-
-def isPrimo(n)  
-end
-
-n = 4564651;
-a = [];
-for i in 1..n
+   #Essa parte faz os restos de divisão e armazena os restos zero num array
+   for i in 1..n
     if(n%i==0)    
        a<<i;     
     end
+   end
+
+   #aqui é verificado se o número é primo pelo tamanho do array
+   if(a.length()==2)
+   return puts "#{a[1]} é primo :D"
+   else return puts "#{n} não é primo >:("
+   end
+
 end
-
-
-puts "Divisores de n são #{a}"
-
-#if(a.length()==2)
-   #puts a[1]  
-#else return puts "não é primo"
-#end
+isPrimo(11);
 
 
 
