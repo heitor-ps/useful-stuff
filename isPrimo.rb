@@ -7,9 +7,9 @@ def isPrimo(n)
     end
    end
    #aqui é verificado se o número é primo pelo tamanho do array
-result = [];
+result = 0;
    if(a.length()==2)
-      result<<a[1];
+      result=a[1];
    else return false
    end
    return result
@@ -25,7 +25,7 @@ def contadorPrimos(j)
       n+=1
       counter+=1
    else n+=1
-   end  
+   end
 end
    return puts resultado
 end
