@@ -29,7 +29,8 @@ def contadorPrimos(j)
 end
    return puts resultado
 end
-contadorPrimos(10001);
+puts "Insira um número"
+contadorPrimos(gets.chomp.to_i);
 
 #Ao rodar esse código, o primo 10001 é 104743. Só demora tipo 3 minutos
 # para retornar o resultado....
