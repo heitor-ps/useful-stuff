@@ -1,6 +1,3 @@
-
-
-
 def isPrimo(n)   
    a = [];
    #Essa parte faz os restos de divisão e armazena os restos zero num array
@@ -15,24 +12,27 @@ result = [];
       result<<a[1];
    else return false
    end
-
-   return result;
+   return result
 end
 
 def contadorPrimos(j)
    n = 1;
-   arrayResultado = [];
-   while arrayResultado.size < j
+   counter = 0;
+   resultado = 0;
+   while counter < j
    if isPrimo(n)!= false
-      arrayResultado<<isPrimo(n)
+      resultado=isPrimo(n)
       n+=1
+      counter+=1
    else n+=1
    end  
 end
-   return puts arrayResultado
+   return puts resultado
 end
+contadorPrimos(10001);
 
-contadorPrimos(4);
+#Ao rodar esse código, o primo 10001 é 104743. Só demora tipo 3 minutos
+# para retornar o resultado....
 
 
 
