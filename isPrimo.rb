@@ -13,7 +13,7 @@ def isPrimo(n)
    return puts "#{a[1]} é primo :D"
    else return puts "#{n} não é primo >:("
    end
-
+#askaposka
 end
 isPrimo(11);
 
