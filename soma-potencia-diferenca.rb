@@ -36,10 +36,6 @@ class Quadrados
     @number = number;
     end
 
-    #soma dos 5 primeiros primos deve ser 28;
-
-    #quadrado dos 5 primeiros primos deve ser 
-
     def quadrado_da_soma()   
       i = 0;    
       soma = 0;        
